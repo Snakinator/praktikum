@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#theonlyone {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+ul {
+    color: #000000;
+}
+
+div.bekommen {
+    background-color: rgb(230, 242, 215); 
+    border-radius: 5px; 
+    overflow: hidden;
+}
+
+div.herstellen {
+    background-color: rgb(242, 215, 215); 
+    border-radius: 5px; 
+    overflow: hidden;
+}
+
+div.umrandung {
+    border: 2px solid black; 
+    border-radius: 5px; 
+    padding: 10px;
+}
+
+picture.links {
+    float: left; 
+    height: 150px
+}
