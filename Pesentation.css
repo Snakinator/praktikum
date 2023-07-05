@@ -2,16 +2,16 @@ div.GroßeÜberschrift {
     font-size: 100px;
     border: 4px solid black; 
     border-radius: 20px; 
-    padding-left: 7%;
     margin-left: 30%;
     margin-right: 30%;
     background-color: white;
     position: relative;
+    text-align: center;
+    
 }
 div.ÜberschriftAblauf {
     border: 2px solid black; 
     border-radius: 10px; 
-    padding-left: 10%;
     font-size: 50px;
     margin-left: 33%;
     margin-right: 33%;
@@ -19,6 +19,7 @@ div.ÜberschriftAblauf {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    text-align: center;
   }
 
 .flex-container {
@@ -27,6 +28,7 @@ div.ÜberschriftAblauf {
     background-color: rgb(26, 71, 185);
     border: 2px solid black; 
     border-radius: 7px;
+    text-align: center;
   }
   
   .flex-container > div {
@@ -35,12 +37,12 @@ div.ÜberschriftAblauf {
     font-size: 30px;
     border: 2px solid black; 
     border-radius: 5px;
+    text-align: left; 
   }
 
 div.ÜberschriftInfo {
     border: 2px solid black; 
     border-radius: 10px; 
-    padding-left: 1%;
     font-size: 50px;
     margin-left: 33%;
     margin-right: 33%;
@@ -48,6 +50,7 @@ div.ÜberschriftInfo {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    text-align: center;
   }
 
 .grid-container {
@@ -64,15 +67,14 @@ div.ÜberschriftInfo {
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
-    text-align: center;
+    text-align: left;
     border: 2px solid black; 
-    border-radius: 10px;
+    border-radius: 10px;;
   }
 
   div.ÜberschriftTask {
     border: 2px solid rgb(0, 0, 0); 
     border-radius: 10px; 
-    padding-left: 1%;
     font-size: 50px;
     margin-left: 33%;
     margin-right: 33%;
@@ -80,6 +82,7 @@ div.ÜberschriftInfo {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    text-align: center;
   }
   ul {
     font-size: 30px;
