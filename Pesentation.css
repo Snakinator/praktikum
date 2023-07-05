@@ -5,6 +5,8 @@ div.GroßeÜberschrift {
     padding-left: 7%;
     margin-left: 30%;
     margin-right: 30%;
+    background-color: white;
+    position: relative;
 }
 div.ÜberschriftAblauf {
     border: 2px solid black; 
@@ -13,7 +15,12 @@ div.ÜberschriftAblauf {
     font-size: 50px;
     margin-left: 33%;
     margin-right: 33%;
-}
+    background-color: white;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
@@ -37,14 +44,19 @@ div.ÜberschriftInfo {
     font-size: 50px;
     margin-left: 33%;
     margin-right: 33%;
-}
+    background-color: white;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: rgb(26, 71, 185);
     padding: 10px;
     border: 2px solid black; 
-    border-radius: 10px;
+    border-radius: 15px;
 
   }
   .grid-item {
@@ -54,5 +66,23 @@ div.ÜberschriftInfo {
     font-size: 30px;
     text-align: center;
     border: 2px solid black; 
-    border-radius: 5px;
+    border-radius: 10px;
+  }
+
+  div.ÜberschriftTask {
+    border: 2px solid rgb(0, 0, 0); 
+    border-radius: 10px; 
+    padding-left: 1%;
+    font-size: 50px;
+    margin-left: 33%;
+    margin-right: 33%;
+    background-color: white;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  ul {
+    font-size: 30px;
+    border: 5px solid rgb(26, 71, 185); 
+    border-radius: 15px;
   }
