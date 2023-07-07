@@ -106,10 +106,17 @@ div.ÜberschriftInfo {
 
 div.bekommen {
   background-color: rgb(26, 71, 185);
+  overflow: hidden;
+  border: 4px solid black; 
+  border-radius: 30px;
+}
+
+div.Schreibtisch {
+  background-color: rgb(26, 71, 185);
   border-radius: 5px; 
   overflow: hidden;
   border: 4px solid black; 
-  border-radius: 30px; 
+  border-radius: 30px;
+  margin-left: 20%; 
+  margin-right: 20%;
 }
-
-
